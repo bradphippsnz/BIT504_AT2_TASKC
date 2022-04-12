@@ -5,7 +5,7 @@
    { 
        private static final int BALL_WIDTH = 25;
        private static final int BALL_HEIGHT = 25;
-       private static final Color BALL_COLOUR = Color.WHITE;
+       private static final Color BALL_COLOUR = Color.RED;
 
        public Ball2(int panelWidth, int panelHeight) 
        

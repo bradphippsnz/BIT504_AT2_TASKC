@@ -3,10 +3,9 @@
  public class Paddle2 extends Sprite2 
  
  { 
-
        private static final int PADDLE_WIDTH = 10;
        private static final int PADDLE_HEIGHT = 100;
-       private static final Color PADDLE_COLOUR = Color.WHITE;
+       private static final Color PADDLE_COLOUR = Color.BLACK;
        private static final int DISTANCE_FROM_EDGE = 40;
        
        public Paddle2(Player player, int panelWidth, int panelHeight) 
@@ -18,11 +17,14 @@
 
            int xPos;
 
-           if(player == Player.One) {
+           if(player == Player.One) 
+           {
 
                xPos = DISTANCE_FROM_EDGE;
 
-           } else {
+           } 
+           else 
+           {
 
                xPos = panelWidth - DISTANCE_FROM_EDGE - getWidth();
 

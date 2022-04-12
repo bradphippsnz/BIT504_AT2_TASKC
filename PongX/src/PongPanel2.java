@@ -14,7 +14,7 @@
    public class PongPanel2 extends JPanel implements ActionListener, KeyListener 
    { 
    
-		private final static Color BACKGROUND_COLOUR = Color.BLACK;
+		private final static Color BACKGROUND_COLOUR = Color.WHITE;
 		private final static int TIMER_DELAY = 1;
 		private final static int BALL_MOVEMENT_SPEED = 1;
 		private final static int POINTS_TO_WIN = 3;
@@ -40,7 +40,7 @@
 
       {
 
-          setBackground(Color.BLACK);
+          setBackground(Color.WHITE);
           Timer timer = new Timer(TIMER_DELAY, this);
           timer.start();
           addKeyListener(this);
@@ -310,7 +310,7 @@
 
              Stroke dashed = new BasicStroke(3, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[]{9}, 0);
              g2d.setStroke(dashed);
-             g2d.setPaint(Color.WHITE);
+             g2d.setPaint(Color.BLACK);
              g2d.drawLine(getWidth() / 2, 0, getWidth() / 2, getHeight());
              g2d.dispose();
 
