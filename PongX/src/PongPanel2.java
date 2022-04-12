@@ -21,12 +21,12 @@
 		private final static int SCORE_TEXT_X = 100;
 		private final static int SCORE_TEXT_Y = 100;
 		private final static int SCORE_FONT_SIZE = 50;
-		private final static String SCORE_FONT_FAMILY = "Serif";
+		private final static String SCORE_FONT_FAMILY = "Helvetica";
 		private final static int WINNER_TEXT_X = 200;
 		private final static int WINNER_TEXT_Y = 200;
 		private final static int WINNER_FONT_SIZE = 40;
-		private final static String WINNER_FONT_FAMILY = "Serif";
-		private final static String WINNER_TEXT = "WIN!";
+		private final static String WINNER_FONT_FAMILY = "Helvetica";
+		private final static String WINNER_TEXT = "VICTORY!";
 		
 		GameState2 gameState = GameState2.INITIALISING;
 		

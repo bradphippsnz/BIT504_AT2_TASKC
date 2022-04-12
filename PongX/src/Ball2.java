@@ -3,8 +3,8 @@
    public class Ball2 extends Sprite2 
    
    { 
-       private static final int BALL_WIDTH = 25;
-       private static final int BALL_HEIGHT = 25;
+       private static final int BALL_WIDTH = 20;
+       private static final int BALL_HEIGHT = 20;
        private static final Color BALL_COLOUR = Color.RED;
 
        public Ball2(int panelWidth, int panelHeight) 
